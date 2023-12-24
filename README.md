@@ -12,4 +12,4 @@ Hello there! My actual name is Wisdom.
 I'm interested in becoming a software developer and  creating amazing applications for human comfort 
 Currently learning C++ 
 I'm looking forward to collaborate with companies with full team work 
-Kindly reach me out with my email or text or call +233 59 615 4533 
+Kindly reach me out via my email  brooksisgentle@gmail.com 
