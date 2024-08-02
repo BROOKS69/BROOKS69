@@ -1,0 +1,219 @@
+@import url('http://fonts.googleapis.com/css2?famaily=Poppins:wght@300,400,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+body {
+
+    background-color: paleturquoise;
+    /* background: linear-gradient(to right, rgb(131, 131, 223), rgb(84, 84, 126),rgb(17, 95, 95)); */
+}
+
+.greetings  {
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+
+}
+
+span{
+    color: rgb(0, 225, 255);
+}
+
+.container {
+    background: linear-gradient(to left, #bbb, paleturquoise);
+    width: 450px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border-radius: .9rem;
+    box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9);
+}
+
+form {
+    margin: 0 2rem;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+
+input {
+    color: inherit;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(104, 104, 104);
+    font-size: 15px;
+}
+
+.input-group {
+    padding: 1% 0;
+    position: relative;
+}
+
+.input-group i {
+    position: relative;
+    color: black;
+}
+ 
+input:focus {
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(327, 90%, 28%);
+}
+
+input::placeholder {
+    color: transparent;
+}
+
+label {
+    color: #757575;
+    position: relative;
+    left: 1.2em;
+    top: -1.3em;
+    cursor: auto;
+    transition: 0.3s ease all;
+}
+
+input:focus~label,input:not(:placeholder-shown)~label {
+    top: -3em;
+    color: hsl(327, 94%, 20%);
+    font-size: 15px;
+}
+
+.recover {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recover a {
+    text-decoration: none;
+    color:#757575;
+}
+
+.recover a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn {
+    font-size: 1.1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background: rgb(131, 131, 223);
+    color: white;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.btn:hover {
+    background: blueviolet;
+}
+
+.or {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i {
+    color: rgb(131, 131, 223);
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #8a8787;
+    margin: 0 15px;
+    transition: 2s;
+}
+
+.icons i:hover {
+    background: rgb(50, 50, 90);
+    font-size: 1.6rem;
+    border: 2px solid rgb(131, 131, 223);
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin-top: 0.9rem;
+    font-weight: bold;
+}
+
+button {
+    color: rgb(77, 77, 133);
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+  .footer {
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-size: 14px;
+    clear: both; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+/* Home page & New Feeds / Trends */
+  .homebg {
+    background: url(./assets/bg1.jpg);
+}
+  
+.welcome-user p {
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 15%;
+}
+
+.logout{
+  text-decoration: none;
+  text-align: center;
+  margin-top: -12.2rem;
+}
+
+.logout a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 3s ease;
+}
+
+.logout a:hover{
+  color: red;
+}
